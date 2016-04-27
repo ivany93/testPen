@@ -1,6 +1,6 @@
 <?php
 include_once ("WritingElement.php");
-include_once ("clickability.php");
+
 /**
  * Created by PhpStorm.
  * User: Ivany
@@ -8,21 +8,14 @@ include_once ("clickability.php");
  * Time: 9:01
  */
 
-class Pen extends WritingElement implements clickability
+class Pen extends WritingElement
 {
-function  __construct($length,  $color = '', $weight, $price,$material = '',$boolean)
+function  __construct()
 {
     $this->Written();
-    $this->Description($length, $color, $weight, $price,$material);
-    $this->clickabel($boolean);
+
 }
 
 
-    function clickabel($boolean)
-    {
-        // TODO: Implement clickabel() method.
-        if($boolean === true){
-            echo "You Writing auto pen  <br>";
-        }
-    }
+
 }
