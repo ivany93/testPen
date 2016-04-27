@@ -8,4 +8,4 @@
 include_once ("Pen.php");
 
 
-$pen = new Pen(15, 'blue', 30, 2, 'iron');
+$pen = new Pen(15, 'blue', 30, 2, 'iron',true);
