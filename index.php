@@ -5,7 +5,7 @@
  * Date: 27.04.2016
  * Time: 8:32
  */
-include_once ("Pencil.php");
+include_once ("PenMannyKernel.php");
 
 
-$pen = new Pencil();
+$pen = new PenMannyKernel(5);
