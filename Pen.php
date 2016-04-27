@@ -10,12 +10,18 @@ include_once ("WritingElement.php");
 
 class Pen extends WritingElement
 {
-function  __construct()
-{
-    $this->Written();
 
-}
+    public function Description ($length,  $color = '', $weight, $price,$material = ''){
+
+        echo "description :<br>
+            length = $length sm,<br>
+            color = $color,<br>
+            weight = $weight gramm,<br>
+            price = $price dollars,<br>
+            material = $material .<br>
+        ";
 
 
+    }
 
 }
